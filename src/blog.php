@@ -117,6 +117,8 @@ dataType:'json',
 success:function(data)
 {
 display(data);
+$("#submit").show();
+$("#update").hide();
 }
     }
 )
